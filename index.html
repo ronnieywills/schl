@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>school</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<section class="header">
+			<nav>
+				<a href="index.html"><img src="/img/logo.png"></a>
+				<div class="nav-links" id="navLinks">
+					<div class="icon">
+						<i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+					</div>
+					<ul>
+						<li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">COURSE</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">CONTACT</a></li>
+					</ul>
+				</div>
+				<div class="icon">
+					<i class="fa-solid fa-bars" onclick="showMenu()"></i>
+				</div>
+			</nav>
+  <div class="text-box">
+		<h1>World's Biggest Kindergarten</h1>
+		<p>Making website is now one of the easiest thing in the wolrd. You just need to learn HTML, CSS <br>Javascript and you're good to go.</p>
+		<a href="" class="hero-btn">Vist Us To Know More</a>
+  </div>
+			
+			
+		</section>
+		<script>
+			var navLink = document.getElementById("navLinks");
+			
+			function showMenu(){
+				navLinks.style.right ="0";
+			}
+			function hideMenu(){
+				navLinks.style.right ="-200px";
+			}
+		</script>
+		<script src="https://kit.fontawesome.com/d9f3a09716.js" crossorigin="anonymous"></script>
+	</body>
+</html>
